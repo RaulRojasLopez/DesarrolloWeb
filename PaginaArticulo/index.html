@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flex.css">
 </head>
 <body>
 
@@ -22,95 +23,105 @@
             <a href="#">página 4</a>
         </nav>
 
-    <main>
-        <header Class="TituloPerro">
-            <h2>
-                Titulo del Articulo
-            </h2>
-        </header>
-
-        <article class="FotoPerroDescrip">
-            
-            <figure>
-                <img src="https://picsum.photos/id/237/600/400" alt="">
-                <figcaption>Imágen de un perrito</figcaption>
-            </figure>
-
-            <aside> 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam provident corporis dolore ipsum reiciendis hic id quos. Nostrum ullam quia officiis dolorum sunt itaque ducimus explicabo, non inventore hic at.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto laudantium doloremque eaque, similique porro temporibus nam facere possimus cum repellendus nulla voluptatum. Quo maiores eligendi maxime obcaecati consequatur molestiae?</p>
-            </aside>
-
-        </article>
-
-        <header class="TituloDelArticulo">
-            <h2>Título del Artículo</h2>
-        </header>
-
-        <article class="Articulos1y2">
-            <header>
-                <h2> Título del artículo 1</h2>
+    <main class="container">
+        <div class="izquierda">
+            <header Class="TituloPerro">
+                <h2>
+                    Titulo del Articulo
+                </h2>
             </header>
-            <section>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore eaque voluptatibus soluta quidem repellat doloribus maiores quisquam modi enim optio obcaecati repellendus nulla, iste atque neque distinctio officia commodi!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem ipsa pariatur incidunt, assumenda consequatur cumque sunt possimus ab commodi repudiandae error harum quas blanditiis ea voluptatem atque nostrum perspiciatis. Corrupti.
-                </p>
-            </section>
-            <header>
-                <h2>Título del artículo 2</h2>
-            </header>
-            <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut nostrum neque laboriosam natus cum accusamus! Reprehenderit cupiditate suscipit recusandae sequi aperiam! Doloribus accusantium nesciunt dignissimos doloremque autem, cupiditate tenetur.</p>
-                <figure>
-                    <img src="https://picsum.photos/id/684/600/400" alt="">
-                </figure>
-            </section>
-        </article>
 
-
-        <aside>
-            <div class="Bloc1">
-                <h3>Bloc de contenido 1</h3>
-                <img src="https://picsum.photos/id/1020/600/400" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur odit voluptatum fuga magnam molestiae a aut nulla esse reprehenderit quidem, quas illo corrupti voluptates ex sit facilis ad veniam inventore!</p>  
-            </div>
-
-
-            <div class="Bloc2">
-                <h3>Bloc de contenido 2</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident voluptatum distinctio ratione dolores? Expedita soluta ratione odio iste nihil saepe vel tempore nam nobis. Quas architecto cupiditate nemo optio omnis?</p>
-                <ul>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    </li>
-                    <li>Rerum asperiores exercitationem debitis amet doloremque maiores est cum sapiente incidunt?</li>
-                </ul>
-            </div>
-
-
-            <div class="Bloc3">
-                <h3>Bloc de contenido 3</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur</p>
-                <fieldset>
-                    <legend>Lorem ipsum dolor sit amet</legend>
-                    <label>check 1 <input type="checkbox"></label>
-                    <label>check 2 <input type="checkbox"></label>
-                    <label>check 3 <input type="checkbox"></label>
-                </fieldset>
+            <article class="FotoPerroDescrip">
                 
-                <fieldset>
-                    <legend>Voluptatum qui maiores et.</legend>
-                    <label>Radio 1 <input type="checkbox"></label>
-                    <label>Radio 2 <input type="checkbox"></label>
-                </fieldset>
+                <figure >
+                    <img class="imagenPerroeIce" src="https://picsum.photos/id/237/600/400" alt="">
+                    <figcaption>Imágen de un perrito</figcaption>
+                </figure>
 
-            </div>
+                <aside class="textoPerro"> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam provident corporis dolore ipsum reiciendis hic id quos. Nostrum ullam quia officiis dolorum sunt itaque ducimus explicabo, non inventore hic at.
+                    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto laudantium doloremque eaque, similique porro temporibus nam facere possimus cum repellendus nulla voluptatum. Quo maiores eligendi maxime obcaecati consequatur molestiae?</p>
+                </aside>
+
+            </article>
+
+            <header class="TituloDelArticulo">
+                <h2>Título del Artículo</h2>
+            </header>
+
+            <article class="Articulos1y2">
+                <div class="cuadrosMorados">
+                    <header>
+                        <h2> Título del artículo 1</h2>
+                    </header>
+                    
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore eaque voluptatibus soluta quidem repellat doloribus maiores quisquam modi enim optio obcaecati repellendus nulla, iste atque neque distinctio officia commodi!
+                        <br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem ipsa pariatur incidunt, assumenda consequatur cumque sunt possimus ab commodi repudiandae error harum quas blanditiis ea voluptatem atque nostrum perspiciatis. Corrupti.
+                        </p>
+                </div>
+
+                <div class="cuadrosMorados">
+                    <header>
+                        <h2>Título del artículo 2</h2>
+                    </header>
+                    <section>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut nostrum neque laboriosam natus cum accusamus! Reprehenderit cupiditate suscipit recusandae sequi aperiam! Doloribus accusantium nesciunt dignissimos doloremque autem, cupiditate tenetur.</p>
+                        <figure>
+                            <img class="imagenPerroeIce" src="https://picsum.photos/id/684/600/400" alt="">
+                        </figure>
+                    </section>
+                </div>
+                
+            </article>
+        </div>
 
 
-        </aside>
+        <div class="derecha">
+            <aside>
+                <div class="Bloc">
+                    <h3>Bloc de contenido 1</h3>
+                    <img class="imagenOso" src="https://picsum.photos/id/1020/600/400" alt="">
+                    <figcaption>Oso escalando</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur odit voluptatum fuga magnam molestiae a aut nulla esse reprehenderit quidem, quas illo corrupti voluptates ex sit facilis ad veniam inventore!</p>  
+                </div>
+
+
+                <div class="Bloc">
+                    <h3>Bloc de contenido 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident voluptatum distinctio ratione dolores? Expedita soluta ratione odio iste nihil saepe vel tempore nam nobis. Quas architecto cupiditate nemo optio omnis?</p>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </li>
+                        <li>Rerum asperiores exercitationem debitis amet doloremque maiores est cum sapiente incidunt?</li>
+                    </ul>
+                </div>
+
+
+                <div class="Bloc">
+                    <h3>Bloc de contenido 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur</p>
+                    <fieldset>
+                        <legend>Lorem ipsum dolor sit amet</legend>
+                        <label>check 1 <input type="checkbox"></label>
+                        <label>check 2 <input type="checkbox"></label>
+                        <label>check 3 <input type="checkbox"></label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Voluptatum qui maiores et.</legend>
+                        <label>Radio 1 <input type="checkbox"></label>
+                        <label>Radio 2 <input type="checkbox"></label>
+                    </fieldset>
+
+                </div>
+
+
+            </aside>
+        </div>
+
 
     </main>
 

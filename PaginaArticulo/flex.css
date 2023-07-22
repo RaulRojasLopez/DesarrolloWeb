@@ -1,0 +1,117 @@
+.Titulo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.Paginas {
+    display: flex;
+    justify-content: space-around;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-basis: auto;
+    margin-bottom: 0.5rem;
+}
+
+
+.TituloPerro {
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+}
+
+.FotoPerroDescrip {
+    display: flex;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+}
+
+.imagenPerroeIce {
+    width: 350px;
+}
+
+.textoPerro {
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+}
+
+.TituloDelArticulo {
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+}
+
+.Articulos1y2 {
+    display: flex;
+}
+
+.cuadrosMorados {
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 0.1rem;
+    margin-right: .7rem;
+
+}
+
+.Bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 3.2rem;
+    margin-right: .8rem;
+  
+}
+
+.imagenOso {
+    width: 200px;
+}
+
+.Pie{
+    align-items: center; 
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 3.2rem;
+    margin-right: .8rem;
+}
+
